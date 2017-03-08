@@ -1,0 +1,33 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the amqueue package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: amqueue 2.0\n"
+"Report-Msgid-Bugs-To: kaarti.sr@gmail.com\n"
+"POT-Creation-Date: 2017-03-09 02:10+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/assistant.c:6
+#, c-format
+msgid "1. New patient\n"
+msgstr ""
+
+#: src/assistant.c:7
+#, c-format
+msgid "2. Send Patient in\n"
+msgstr ""
+
+#: src/assistant.c:8
+#, c-format
+msgid "3. exit\n"
+msgstr ""

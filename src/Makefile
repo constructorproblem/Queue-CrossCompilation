@@ -91,10 +91,14 @@ host_triplet = x86_64-pc-linux-gnu
 bin_PROGRAMS = assistant$(EXEEXT)
 subdir = src
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
-am__aclocal_m4_deps = $(top_srcdir)/m4/libtool.m4 \
+am__aclocal_m4_deps = $(top_srcdir)/m4/gettext.m4 \
+	$(top_srcdir)/m4/iconv.m4 $(top_srcdir)/m4/intlmacosx.m4 \
+	$(top_srcdir)/m4/lib-ld.m4 $(top_srcdir)/m4/lib-link.m4 \
+	$(top_srcdir)/m4/lib-prefix.m4 $(top_srcdir)/m4/libtool.m4 \
 	$(top_srcdir)/m4/ltoptions.m4 $(top_srcdir)/m4/ltsugar.m4 \
 	$(top_srcdir)/m4/ltversion.m4 $(top_srcdir)/m4/lt~obsolete.m4 \
-	$(top_srcdir)/configure.ac
+	$(top_srcdir)/m4/nls.m4 $(top_srcdir)/m4/po.m4 \
+	$(top_srcdir)/m4/progtest.m4 $(top_srcdir)/configure.ac
 am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \
 	$(ACLOCAL_M4)
 DIST_COMMON = $(srcdir)/Makefile.am $(am__DIST_COMMON)
@@ -199,24 +203,36 @@ ECHO_T =
 EGREP = /bin/grep -E
 EXEEXT = 
 FGREP = /bin/grep -F
+GETTEXT_MACRO_VERSION = 0.19
+GMSGFMT = /usr/bin/msgfmt
+GMSGFMT_015 = /usr/bin/msgfmt
 GREP = /bin/grep
 INSTALL = /usr/bin/install -c
 INSTALL_DATA = ${INSTALL} -m 644
 INSTALL_PROGRAM = ${INSTALL}
 INSTALL_SCRIPT = ${INSTALL}
 INSTALL_STRIP_PROGRAM = $(install_sh) -c -s
+INTLLIBS = 
+INTL_MACOSX_LIBS = 
 LD = /usr/bin/ld -m elf_x86_64
 LDFLAGS = 
+LIBICONV = -liconv
+LIBINTL = 
 LIBOBJS = 
 LIBS = 
 LIBTOOL = $(SHELL) $(top_builddir)/libtool
 LIPO = 
 LN_S = ln -s
+LTLIBICONV = -liconv
+LTLIBINTL = 
 LTLIBOBJS = 
 LT_SYS_LIBRARY_PATH = 
 MAKEINFO = ${SHELL} "/home/guitarman/Documents/IT Sem VI/FOSS/q-using-linked-nodes/build-aux/missing" makeinfo
 MANIFEST_TOOL = :
 MKDIR_P = /bin/mkdir -p
+MSGFMT = /usr/bin/msgfmt
+MSGFMT_015 = /usr/bin/msgfmt
+MSGMERGE = /usr/bin/msgmerge
 NM = /usr/bin/nm -B
 NMEDIT = 
 OBJDUMP = objdump
@@ -231,12 +247,17 @@ PACKAGE_TARNAME = amqueue
 PACKAGE_URL = 
 PACKAGE_VERSION = 2.0
 PATH_SEPARATOR = :
+POSUB = po
 RANLIB = ranlib
 SED = /bin/sed
 SET_MAKE = 
 SHELL = /bin/bash
 STRIP = strip
+USE_NLS = yes
 VERSION = 2.0
+XGETTEXT = /usr/bin/xgettext
+XGETTEXT_015 = /usr/bin/xgettext
+XGETTEXT_EXTRA_OPTIONS = 
 abs_builddir = /home/guitarman/Documents/IT Sem VI/FOSS/q-using-linked-nodes/src
 abs_srcdir = /home/guitarman/Documents/IT Sem VI/FOSS/q-using-linked-nodes/src
 abs_top_builddir = /home/guitarman/Documents/IT Sem VI/FOSS/q-using-linked-nodes

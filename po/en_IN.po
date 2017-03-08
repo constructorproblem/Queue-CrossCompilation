@@ -1,0 +1,33 @@
+# English translations for amqueue package.
+# Copyright (C) 2017 Free Software Foundation, Inc.
+# This file is distributed under the same license as the amqueue package.
+# guitarman <guitarman@guitarman-lenovo-g50-70>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: amqueue 2.0\n"
+"Report-Msgid-Bugs-To: kaarti.sr@gmail.com\n"
+"POT-Creation-Date: 2017-03-09 02:10+0530\n"
+"PO-Revision-Date: 2017-03-09 03:48+0530\n"
+"Last-Translator: guitarman <guitarman@guitarman-lenovo-g50-70>\n"
+"Language-Team: English\n"
+"Language: en_IN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/assistant.c:6
+#, c-format
+msgid "1. New patient\n"
+msgstr "1. New patient\n"
+
+#: src/assistant.c:7
+#, c-format
+msgid "2. Send Patient in\n"
+msgstr "2. Send Patient in\n"
+
+#: src/assistant.c:8
+#, c-format
+msgid "3. exit\n"
+msgstr "3. exit\n"
