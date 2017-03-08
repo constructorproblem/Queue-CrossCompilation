@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include "queue.h"
 #include "data.h"
+#define _(string) gettext (string)
 void printmenu() {
-	printf("1. New patient\n");
-	printf("2. Send Patient in\n");
-	printf("3. exit\n");
+	printf(_("1. New patient\n"));
+	printf(_("2. Send Patient in\n"));
+	printf(_("3. exit\n"));
 }
 int main() {
 	queue q;
